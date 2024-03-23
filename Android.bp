@@ -1,5 +1,5 @@
 //
-// Copyright (C) 2022 LeafOS Project
+// Copyright (C) 2022-2024 LeafOS Project
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -12,6 +12,12 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
+
+prebuilt_font {
+    name: "Chococooky.ttf",
+    src: "Chococooky.ttf",
+    product_specific: true,
+}
 
 prebuilt_font {
     name: "GoogleSans-Italic.ttf",
